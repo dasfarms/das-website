@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sold Out | DAS FARMS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="CSS/homestyle1.css" type="text/css"/>
+  <link rel="stylesheet" href="CSS/site.css"/>
+  <style>
+    .soldout-shell {
+      min-height: 100vh;
+      background:
+        linear-gradient(rgba(17,24,39,.52), rgba(17,24,39,.52)),
+        url('images/homepage/hero-shade-tree-background.jpg') center/cover no-repeat;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:32px 18px;
+    }
+    .soldout-card {
+      width:min(100%, 760px);
+      background:rgba(255,255,255,.94);
+      backdrop-filter: blur(6px);
+      border:1px solid rgba(255,255,255,.7);
+      border-radius:28px;
+      box-shadow:0 24px 60px rgba(0,0,0,.22);
+      padding:34px 30px 30px;
+      text-align:center;
+    }
+    .soldout-logo-wrap {
+      display:flex;
+      justify-content:center;
+      margin-bottom:14px;
+    }
+    .soldout-logo {
+      width:84px;
+      height:84px;
+      object-fit:contain;
+      border-radius:999px;
+      background:#fff;
+      box-shadow:0 8px 24px rgba(0,0,0,.12);
+      padding:6px;
+    }
+    .soldout-brand {
+      margin:0 0 8px;
+      font-size:18px;
+      font-weight:800;
+      letter-spacing:.12em;
+      color:#2f6f37;
+      text-transform:uppercase;
+    }
+    .soldout-title {
+      margin:0 0 12px;
+      font-size:48px;
+      line-height:1.02;
+      font-weight:800;
+      color:#111827;
+    }
+    .soldout-copy {
+      margin:0 auto 22px;
+      max-width:560px;
+      font-size:17px;
+      line-height:1.6;
+      color:#4b5563;
+    }
+    .soldout-actions {
+      display:flex;
+      gap:12px;
+      justify-content:center;
+      flex-wrap:wrap;
+      margin-top:8px;
+    }
+    .soldout-btn {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:50px;
+      padding:0 18px;
+      border-radius:999px;
+      text-decoration:none !important;
+      font-weight:800;
+      font-size:16px;
+    }
+    .soldout-btn-primary {
+      background:#2f6f37;
+      color:#fff !important;
+      box-shadow:0 10px 24px rgba(47,111,55,.22);
+    }
+    .soldout-btn-primary:hover {
+      background:#25592c;
+      color:#fff !important;
+    }
+    .soldout-btn-secondary {
+      background:#f3f4f6;
+      color:#111827 !important;
+    }
+    .soldout-note {
+      margin-top:18px;
+      font-size:14px;
+      color:#6b7280;
+    }
+    @media (max-width: 767px) {
+      .soldout-card { padding:28px 20px 24px; border-radius:22px; }
+      .soldout-title { font-size:38px; }
+      .soldout-copy { font-size:16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="soldout-shell">
+    <div class="soldout-card">
+      <div class="soldout-logo-wrap">
+        <img src="images/images/logo_supersmall.jpg" alt="DAS FARMS logo" class="soldout-logo"/>
+      </div>
+      <div class="soldout-brand">DAS FARMS</div>
+      <h1 class="soldout-title">Currently Sold Out</h1>
+      <p class="soldout-copy">The item you were looking for is currently unavailable. We regularly update inventory, so please check back soon or browse the rest of our catalog for other available plants.</p>
+      <div class="soldout-actions">
+        <a href="products.html" class="soldout-btn soldout-btn-primary">Browse Catalog</a>
+        <a href="index.html" class="soldout-btn soldout-btn-secondary">Back to Home</a>
+      </div>
+      <div class="soldout-note">Healthy nursery stock from DAS FARMS.</div>
+    </div>
+  </div>
+</body>
+</html>

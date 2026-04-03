@@ -1,0 +1,19 @@
+Version=1.1
+PathFormat=win
+[Items]
+[Items/Item0]
+Cmd=--rootdir="C:\\Users\\OPTIPLEX1\\Desktop\\Dasfarms Links\\Local Sites\\localsites\\DASF1\\images\\Shrubs\\Flowering" -i "Limelight_Hydrangea1.jpg" -w 2842pixels -m ssplinemax -s "-nousm -in 1 -ra 2.5 -rf 30 -sh 85 -fg 20 -ar 6 -cr 40 -vi 0 -bs 0 -fo 0"
+[Items/Item1]
+Cmd=--rootdir="C:\\Users\\OPTIPLEX1\\Desktop\\Dasfarms Links\\Local Sites\\localsites\\DASF1\\images\\Shrubs\\Flowering" -i "unique1.jpg" -w 2027pixels -m ssplinemax -s "-nousm -in 1 -ra 2.5 -rf 30 -sh 85 -fg 20 -ar 6 -cr 40 -vi 0 -bs 0 -fo 0"
+[Items/Item2]
+Cmd=--rootdir="C:\\Users\\OPTIPLEX1\\Desktop\\Dasfarms Links\\Local Sites\\localsites\\DASF1\\images\\Shrubs\\Flowering" -i "WEflVA1.jpg" -w 2000pixels -m ssplinemax -s "-nousm -in 1 -ra 2.5 -rf 30 -sh 85 -fg 20 -ar 6 -cr 40 -vi 0 -bs 0 -fo 0"
+[Items/Item3]
+Cmd=--rootdir="C:\\Users\\OPTIPLEX1\\Desktop\\Dasfarms Links\\Local Sites\\localsites\\DASF1\\images\\Shrubs\\Flowering" -i "WEflVA3.jpg" -w 2000pixels -m ssplinemax -s "-nousm -in 1 -ra 2.5 -rf 30 -sh 85 -fg 20 -ar 6 -cr 40 -vi 0 -bs 0 -fo 0"
+[Items/Item4]
+Cmd=--rootdir="C:\\Users\\OPTIPLEX1\\Desktop\\Dasfarms Links\\Local Sites\\localsites\\DASF1\\images\\Shrubs\\Flowering" -i "WEflVA3L.jpg" -w 2107pixels -m ssplinemax -s "-nousm -in 1 -ra 2.5 -rf 30 -sh 85 -fg 20 -ar 6 -cr 40 -vi 0 -bs 0 -fo 0"
+[Settings]
+Output\ Folder=C:\\Users\\OPTIPLEX1\\Desktop\\Etsy Images\\
+Create\ Subfolders=1
+Output\ Format=jpg
+No\ Resize\ Action=Save as target format
+File\ Exists\ Action=Skip

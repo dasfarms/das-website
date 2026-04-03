@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Know your grow zone?</title>
+  <style>
+    body{font-family:Arial,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;padding:18px;background:#f6f7f9;}
+    .card{background:#fff;border:1px solid rgba(0,0,0,.12);border-radius:14px;box-shadow:0 10px 24px rgba(0,0,0,.08);padding:16px;}
+    h1{font-size:20px;margin:0 0 6px;}
+    p{margin:0 0 12px;opacity:.85;}
+    .row{display:flex;gap:10px;align-items:center;}
+    input,select,button{font-size:14px;}
+    input{flex:1;padding:10px;border-radius:10px;border:1px solid #cfcfcf;}
+    button{padding:10px 14px;border-radius:10px;border:1px solid rgba(0,0,0,.2);background:#fff;cursor:pointer;}
+    button.primary{background:#0b57d0;color:#fff;border-color:#0b57d0;}
+    .msg{margin-top:10px;min-height:18px;font-size:13px;}
+    .footer{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:10px;flex-wrap:wrap;}
+    a{color:#0b57d0;text-decoration:underline;cursor:pointer;font-size:13px;}
+    .pill{display:inline-block;padding:3px 8px;border-radius:999px;background:rgba(0,0,0,.05);font-weight:700;}
+  </style>
+
+<style>
+/* Unified Shopify-style header */
+.unified-nav-wrap{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid #e7e7eb;box-shadow:0 1px 10px rgba(0,0,0,0.04);}
+.unified-nav-main{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px;}
+.unified-nav-left{display:flex;align-items:center;gap:12px;min-width:0;}
+.unified-nav-logo{width:42px;height:42px;object-fit:contain;border-radius:999px;background:#fff;flex:0 0 auto;}
+.unified-nav-brand{font-size:28px;font-weight:800;line-height:1;letter-spacing:-0.02em;color:#1f1f1f !important;text-decoration:none !important;white-space:nowrap;}
+.unified-nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.unified-nav-links a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 14px;border-radius:12px;color:#374151 !important;text-decoration:none !important;font-weight:700;background:transparent;border:0;}
+.unified-nav-links a:hover{background:#f3f4f6;color:#111827 !important;}
+.unified-cart-link{display:inline-flex !important;align-items:center;gap:8px;background:#2f6f37;color:#fff !important;padding:10px 16px !important;border-radius:999px;font-weight:800;text-decoration:none !important;box-shadow:0 4px 12px rgba(47,111,55,0.18);}
+.unified-cart-link:hover{background:#25592c;color:#fff !important;}
+.unified-nav-cats{display:flex;align-items:center;gap:10px;padding:0 18px 14px;flex-wrap:wrap;}
+.unified-dropdown{position:relative;}
+.unified-dropbtn{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 12px;border-radius:12px;background:#f7f8fa;color:#1f2937 !important;font-weight:700;text-decoration:none !important;cursor:pointer;}
+.unified-dropbtn:hover{background:#eef1f4;}
+.unified-dropdown-content{display:none;position:absolute;left:0;top:100%;min-width:240px;background:#fff;border:1px solid #e5e7eb;border-radius:14px;box-shadow:0 16px 34px rgba(0,0,0,0.10);padding:10px;}
+.unified-dropdown:hover .unified-dropdown-content{display:block;}
+.unified-dropdown-content a{display:block;padding:9px 10px;border-radius:10px;color:#374151 !important;text-decoration:none !important;font-weight:600;}
+.unified-dropdown-content a:hover{background:#f5f7f9;color:#111827 !important;}
+@media (max-width: 991px){.unified-nav-main{flex-wrap:wrap;}.unified-nav-links{width:100%;}.unified-nav-brand{font-size:24px;}.unified-nav-cats{padding-top:6px;}}
+</style>
+
+</head>
+<body>
+  <div class="card">
+    <h1>Know your grow zone?</h1>
+    <p>Enter your 5-digit ZIP code to find your USDA plant hardiness zone.</p>
+
+    <div class="row">
+      <input id="zip" type="text" inputmode="numeric" maxlength="5" placeholder="ZIP code" />
+      <button class="primary" id="save">Save</button>
+    </div>
+    <div class="msg" id="msg"></div>
+
+    <div class="footer">
+      <a href="#" id="clear">Clear saved ZIP</a>
+      <div>
+        <span style="opacity:.8">Saved zone:</span> <span class="pill" id="saved">—</span>
+      </div>
+      <button id="close">Close</button>
+    </div>
+  </div>
+
+  <!-- Prefer the locally-hosted JS dataset so it works on static hosting and file:// -->
+  <script src="data/zip_to_zone_2023.js"></script>
+  <script>
+    (function(){
+      const STORAGE_ZIP = 'user_zip';
+      const STORAGE_ZONE = 'user_zone';
+      const ZIP_ZONE_GLOBAL = 'ZIP_TO_ZONE_2023';
+      const ZONE_DATA_URL = 'data/zip_to_zone_2023.json';
+
+      const $ = (id)=>document.getElementById(id);
+      const zipEl = $('zip');
+      const msgEl = $('msg');
+      const savedEl = $('saved');
+
+      function validZip(z){ return /^\d{5}$/.test(String(z||'').trim()); }
+      function getZip(){ return (localStorage.getItem(STORAGE_ZIP)||'').trim(); }
+      function getZone(){ return (localStorage.getItem(STORAGE_ZONE)||'').trim(); }
+      function setZipZone(zip, zone){
+        localStorage.setItem(STORAGE_ZIP, zip);
+        localStorage.setItem(STORAGE_ZONE, zone);
+      }
+
+      async function loadZipMap(){
+        if (window[ZIP_ZONE_GLOBAL] && typeof window[ZIP_ZONE_GLOBAL] === 'object') return window[ZIP_ZONE_GLOBAL];
+        const resp = await fetch(ZONE_DATA_URL, {cache:'force-cache'});
+        if(!resp.ok) throw new Error('Could not load ZIP zone data');
+        return await resp.json();
+      }
+
+      async function lookupZone(zip){
+        const map = await loadZipMap();
+        return map[zip] || '';
+      }
+
+      function refreshSaved(){
+        const z = getZone();
+        const zip = getZip();
+        savedEl.textContent = z ? (z + (zip ? (' (ZIP ' + zip + ')') : '')) : '—';
+        if(zipEl) zipEl.value = zip || '';
+      }
+
+      $('save').addEventListener('click', async function(){
+        const zip = String(zipEl.value||'').trim();
+        msgEl.textContent = '';
+        if(!validZip(zip)){
+          msgEl.textContent = 'Please enter a valid 5-digit ZIP code.';
+          return;
+        }
+        msgEl.textContent = 'Looking up your zone...';
+        try{
+          const zone = await lookupZone(zip);
+          if(!zone){
+            msgEl.textContent = 'Sorry — ZIP not found.';
+            return;
+          }
+          setZipZone(zip, zone);
+          msgEl.textContent = 'Saved! Your grow zone is ' + zone + '.';
+          refreshSaved();
+        }catch(err){
+          console.error(err);
+          msgEl.textContent = "Sorry — couldn't load the grow zone database.";
+        }
+      });
+
+      $('clear').addEventListener('click', function(e){
+        e.preventDefault();
+        localStorage.removeItem(STORAGE_ZIP);
+        localStorage.removeItem(STORAGE_ZONE);
+        msgEl.textContent = 'Cleared.';
+        refreshSaved();
+      });
+
+      $('close').addEventListener('click', function(){
+        window.close();
+      });
+
+      // Enter key submits
+      zipEl.addEventListener('keydown', function(e){
+        if(e.key === 'Enter'){ e.preventDefault(); $('save').click(); }
+      });
+
+      refreshSaved();
+    })();
+  </script>
+</body>
+</html>

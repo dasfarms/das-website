@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/homestyle1.css">
+  <link rel="stylesheet" href="CSS/site.css">
+  <link rel="stylesheet" href="CSS/catalog.css">
+
+  <title>Product | DAS Farms</title>
+
+<style>
+.site-cart-link{
+  display:inline-flex !important;
+  align-items:center;
+  gap:8px;
+  background:#2f6f37;
+  color:#fff !important;
+  padding:8px 14px !important;
+  border-radius:999px;
+  font-weight:700;
+  text-decoration:none !important;
+  box-shadow:0 2px 8px rgba(0,0,0,0.12);
+}
+.site-cart-link:hover{ background:#25592c; color:#fff !important; }
+.cart-icon{ font-size:16px; line-height:1; }
+.prod-price{ font-size:15px; }
+</style>
+
+
+<style>
+.product-gallery-main-wrap{
+  border:1px solid #ddd;
+  border-radius:14px;
+  overflow:hidden;
+  background:#fff;
+}
+.product-gallery-main{
+  width:100%;
+  height:auto;
+  display:block;
+}
+.product-gallery-thumbs{
+  display:flex;
+  gap:10px;
+  margin-top:12px;
+  flex-wrap:wrap;
+}
+.product-gallery-thumb{
+  width:88px;
+  height:88px;
+  object-fit:cover;
+  border-radius:10px;
+  border:2px solid #d9d9d9;
+  cursor:pointer;
+  background:#fff;
+  transition:border-color .15s ease, transform .15s ease;
+}
+.product-gallery-thumb:hover{
+  transform:translateY(-1px);
+}
+.product-gallery-thumb.active{
+  border-color:#2f6f37;
+}
+@media (max-width: 767px){
+  .product-gallery-thumb{
+    width:72px;
+    height:72px;
+  }
+}
+</style>
+
+
+<style>
+.plant-characteristics-card{
+  margin-top:20px;
+  padding:18px 18px 14px;
+  border:1px solid #e6e6e6;
+  border-radius:14px;
+  background:#fff;
+  box-shadow:0 6px 18px rgba(0,0,0,0.04);
+}
+.plant-characteristics-title{
+  margin:0 0 12px 0;
+  font-size:22px;
+  font-weight:700;
+  color:#1f1f1f;
+}
+.plant-characteristics-list{
+  margin:0;
+  padding-left:20px;
+}
+.plant-characteristics-list li{
+  margin-bottom:8px;
+  line-height:1.5;
+}
+.pc-icon{
+  display:inline-block;
+  width:1.5em;
+}
+.your-zone-line{
+  margin-top:14px;
+  padding-top:12px;
+  border-top:1px solid #ececec;
+  font-weight:600;
+}
+.zone-bad{
+  color:#b42318;
+  font-weight:700;
+  margin-left:10px;
+}
+.zone-good{
+  color:#245b2a;
+  font-weight:700;
+  margin-left:10px;
+}
+</style>
+
+
+<style>
+/* Unified Shopify-style header */
+.unified-nav-wrap{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid #e7e7eb;box-shadow:0 1px 10px rgba(0,0,0,0.04);}
+.unified-nav-main{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px;}
+.unified-nav-left{display:flex;align-items:center;gap:12px;min-width:0;}
+.unified-nav-logo{width:42px;height:42px;object-fit:contain;border-radius:999px;background:#fff;flex:0 0 auto;}
+.unified-nav-brand{font-size:28px;font-weight:800;line-height:1;letter-spacing:-0.02em;color:#1f1f1f !important;text-decoration:none !important;white-space:nowrap;}
+.unified-nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.unified-nav-links a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 14px;border-radius:12px;color:#374151 !important;text-decoration:none !important;font-weight:700;background:transparent;border:0;}
+.unified-nav-links a:hover{background:#f3f4f6;color:#111827 !important;}
+.unified-cart-link{display:inline-flex !important;align-items:center;gap:8px;background:#2f6f37;color:#fff !important;padding:10px 16px !important;border-radius:999px;font-weight:800;text-decoration:none !important;box-shadow:0 4px 12px rgba(47,111,55,0.18);}
+.unified-cart-link:hover{background:#25592c;color:#fff !important;}
+.unified-nav-cats{display:flex;align-items:center;gap:10px;padding:0 18px 14px;flex-wrap:wrap;}
+.unified-dropdown{position:relative;}
+.unified-dropbtn{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 12px;border-radius:12px;background:#f7f8fa;color:#1f2937 !important;font-weight:700;text-decoration:none !important;cursor:pointer;}
+.unified-dropbtn:hover{background:#eef1f4;}
+.unified-dropdown-content{display:none;position:absolute;left:0;top:100%;min-width:240px;background:#fff;border:1px solid #e5e7eb;border-radius:14px;box-shadow:0 16px 34px rgba(0,0,0,0.10);padding:10px;}
+.unified-dropdown:hover .unified-dropdown-content{display:block;}
+.unified-dropdown-content a{display:block;padding:9px 10px;border-radius:10px;color:#374151 !important;text-decoration:none !important;font-weight:600;}
+.unified-dropdown-content a:hover{background:#f5f7f9;color:#111827 !important;}
+@media (max-width: 991px){.unified-nav-main{flex-wrap:wrap;}.unified-nav-links{width:100%;}.unified-nav-brand{font-size:24px;}.unified-nav-cats{padding-top:6px;}}
+</style>
+
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+<div class="unified-nav-wrap">
+  <div class="unified-nav-main">
+    <div class="unified-nav-left">
+      <img src="images/images/logo_supersmall.jpg" alt="DAS Farms" class="unified-nav-logo">
+      <a href="index.html" class="unified-nav-brand">DAS FARMS</a>
+    </div>
+    <div class="unified-nav-links">
+      <a href="index.html">Home</a>
+      <a href="About Us.html">About Us</a>
+      <a href="products.html">Catalog</a>
+      <a href="#" data-zone-set onclick="return (window.ZoneWidget&&ZoneWidget.open)?(ZoneWidget.open(),false):false;">Know your grow zone?</a>
+      <a href="cart.html" class="unified-cart-link">🛒 Cart (<span id="cartCount">0</span>)</a>
+    </div>
+  </div>
+  <div class="unified-nav-cats">
+    <div class="unified-dropdown">
+      <a href="Evergreen.html" class="unified-dropbtn">Evergreen</a>
+      <div class="unified-dropdown-content">
+        <a href="AB.html">Abelia</a><a href="TH.html">Arborvitae</a><a href="BX.html">Boxwood</a><a href="IL.html">Holly</a><a href="VI.html">Viburnum</a><a href="Evergreen.html">Browse all evergreens</a>
+      </div>
+    </div>
+    <div class="unified-dropdown">
+      <a href="Flowering.html" class="unified-dropbtn">Flowering Shrubs</a>
+      <div class="unified-dropdown-content">
+        <a href="BU.html">Butterfly Bush</a><a href="CL.html">Clethra</a><a href="FG.html">Fothergilla</a><a href="GA.html">Gardenia</a><a href="HY.html">Hydrangea</a><a href="SP.html">Spirea</a><a href="SY.html">Lilac</a><a href="Flowering.html">Browse all flowering shrubs</a>
+      </div>
+    </div>
+    <div class="unified-dropdown">
+      <a href="Trees.html" class="unified-dropbtn">Trees</a>
+      <div class="unified-dropdown-content">
+        <a href="AC.html">Maples</a><a href="LA.html">Crape Myrtle</a><a href="MA.html">Magnolia</a><a href="CEcaRB.html">Red Bud</a><a href="Trees.html">Browse all trees</a>
+      </div>
+    </div>
+    <div class="unified-dropdown">
+      <a href="Fruit.html" class="unified-dropbtn">Fruit and Nut Trees</a>
+      <div class="unified-dropdown-content">
+        <a href="MLdo.html">Apples</a><a href="PRpe.html">Peaches</a><a href="PRsa.html">Plums</a><a href="PYco.html">Pears</a><a href="Fruit.html">Browse all fruit and nut trees</a>
+      </div>
+    </div>
+    <div class="unified-dropdown"><a href="HI.html" class="unified-dropbtn">Grasses</a><div class="unified-dropdown-content"><a href="HI.html">Browse grasses</a></div></div>
+    <div class="unified-dropdown"><a href="DIxx.html" class="unified-dropbtn">Perennials</a><div class="unified-dropdown-content"><a href="DIxx.html">Browse perennials</a></div></div>
+  </div>
+</div>
+
+<div class="container" id="main" style="margin-top:20px;">
+    <div id="content">
+      <p><a href="products.html">← Back to catalog</a></p>
+
+      <h2 id="name">Product</h2>
+      <div class="small-muted" id="cat"></div>
+
+      <div class="row" style="margin-top:12px;">
+        <div class="col-md-6">
+          <div class="product-gallery">
+            <div class="product-gallery-main-wrap">
+              <img id="img" src="images/images/logo_supersmall.jpg" alt="Product" class="product-gallery-main">
+            </div>
+            <div id="galleryThumbs" class="product-gallery-thumbs"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p id="short" style="font-size:16px;"></p>
+
+          <h4>Available sizes</h4>
+          <div id="sizes"></div>
+          <div style="margin-top:10px;">
+            <div id="sizeBadges" class="size-badges" style="margin-top:6px;"></div>
+              <div class="row" style="margin-left:-4px;margin-right:-4px;">
+              <div class="col-xs-7" style="padding-left:4px;padding-right:4px;">
+                <select id="sizePick" class="form-control input-sm"></select>
+              </div>
+              <div class="col-xs-5" style="padding-left:4px;padding-right:4px;">
+                <select id="qtyPick" class="form-control input-sm">
+                  <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option>
+                  <option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>
+                  <option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option>
+                  <option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+                </select>
+              </div>
+            </div>
+            <div style="margin-top:6px;"><div id="priceText" style="display:inline-block; font-weight:700; color:#245b2a; margin-right:12px;"></div>
+              <button id="addBtn" class="btn btn-primary btn-sm">Add to cart</button>
+              <span id="invHint" class="small-muted" style="margin-left:10px;"></span>
+              <span id="cartBadge" class="small-muted pull-right"></span>
+            </div>
+          </div>
+
+
+          <div id="plantCharacteristics" class="plant-characteristics-card"></div>
+
+          <h4>Details</h4>
+          <p id="desc"></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="data/products_data.js"></script>
+<script src="assets/js/product.js"></script>
+
+  <hr>
+  <div class="container">
+    <p class="small-muted">
+      <a href="products.html">Catalog</a> · <a href="search.html">Search</a> · <a href="manage.html">Manage Products</a>
+    </p>
+  </div>
+  <script src="data/zip_to_zone_2023.js"></script>
+<script src="assets/js/zone.js"></script>
+
+<script>
+(function(){
+  try{
+    var cart = JSON.parse(localStorage.getItem('cart')||'[]');
+    var count = cart.reduce(function(a,i){ return a + (Number(i.qty)||0); }, 0);
+    var el = document.getElementById('cartCount');
+    if(el) el.textContent = String(count);
+  }catch(e){}
+})();
+</script>
+
+
+<script>
+(function(){
+  function getCookie(name){
+    try{
+      var safe = String(name).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      var m = document.cookie.match(new RegExp('(?:^|; )' + safe + '=([^;]*)'));
+      return m ? decodeURIComponent(m[1]) : "";
+    }catch(e){ return ""; }
+  }
+  try{
+    var raw = localStorage.getItem('cart') || sessionStorage.getItem('cart') || getCookie('cart') || '[]';
+    var cart = JSON.parse(raw);
+    var count = cart.reduce(function(a,i){ return a + (Number(i.qty)||0); }, 0);
+    var el = document.getElementById('cartCount');
+    if(el) el.textContent = String(count);
+  }catch(e){}
+})();
+</script>
+
+</body>
+</html>

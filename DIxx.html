@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Perennials | DAS FARMS</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="CSS/homestyle1.css" type="text/css"/>
+<link rel="stylesheet" href="CSS/site.css"/>
+
+<style>
+/* Unified Shopify-style header */
+.unified-nav-wrap{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:1px solid #e7e7eb;box-shadow:0 1px 10px rgba(0,0,0,0.04);}
+.unified-nav-main{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 18px;}
+.unified-nav-left{display:flex;align-items:center;gap:12px;min-width:0;}
+.unified-nav-logo{width:42px;height:42px;object-fit:contain;border-radius:999px;background:#fff;flex:0 0 auto;}
+.unified-nav-brand{font-size:28px;font-weight:800;line-height:1;letter-spacing:-0.02em;color:#1f1f1f !important;text-decoration:none !important;white-space:nowrap;}
+.unified-nav-links{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.unified-nav-links a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 14px;border-radius:12px;color:#374151 !important;text-decoration:none !important;font-weight:700;background:transparent;border:0;}
+.unified-nav-links a:hover{background:#f3f4f6;color:#111827 !important;}
+.unified-cart-link{display:inline-flex !important;align-items:center;gap:8px;background:#2f6f37;color:#fff !important;padding:10px 16px !important;border-radius:999px;font-weight:800;text-decoration:none !important;box-shadow:0 4px 12px rgba(47,111,55,0.18);}
+.unified-cart-link:hover{background:#25592c;color:#fff !important;}
+.unified-nav-cats{display:flex;align-items:center;gap:10px;padding:0 18px 14px;flex-wrap:wrap;}
+.unified-dropdown{position:relative;}
+.unified-dropbtn{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 12px;border-radius:12px;background:#f7f8fa;color:#1f2937 !important;font-weight:700;text-decoration:none !important;cursor:pointer;}
+.unified-dropbtn:hover{background:#eef1f4;}
+.unified-dropdown-content{display:none;position:absolute;left:0;top:100%;min-width:240px;background:#fff;border:1px solid #e5e7eb;border-radius:14px;box-shadow:0 16px 34px rgba(0,0,0,0.10);padding:10px;}
+.unified-dropdown:hover .unified-dropdown-content{display:block;}
+.unified-dropdown-content a{display:block;padding:9px 10px;border-radius:10px;color:#374151 !important;text-decoration:none !important;font-weight:600;}
+.unified-dropdown-content a:hover{background:#f5f7f9;color:#111827 !important;}
+.category-page{max-width:1240px;margin:0 auto;padding:26px 18px 42px;}
+.category-hero{margin-bottom:26px;text-align:center;}
+.category-title{font-size:42px;line-height:1.05;font-weight:800;color:#111827;margin:0 0 8px;}
+.category-subtitle{max-width:760px;margin:0 auto;color:#6b7280;font-size:16px;line-height:1.5;}
+.category-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px;}
+.category-card{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:18px;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,0.05);text-decoration:none !important;transition:transform .15s ease, box-shadow .15s ease, border-color .15s ease;}
+.category-card:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(0,0,0,0.08);border-color:#d7dce1;}
+.category-card-image{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#f5f5f5;}
+.category-card-body{padding:16px 14px 18px;text-align:center;}
+.category-card-title{margin:0;font-size:19px;font-weight:800;line-height:1.25;color:#111827;text-align:center;}
+.category-empty{max-width:760px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:28px;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,0.05);}
+.category-empty h3{margin-top:0;font-size:28px;font-weight:800;}
+.category-empty p{color:#6b7280;font-size:16px;line-height:1.5;margin-bottom:18px;}
+.clean-footer{margin-top:38px;padding-top:20px;border-top:1px solid #e5e7eb;text-align:center;color:#6b7280;font-size:14px;}
+@media (max-width: 991px){.unified-nav-main{flex-wrap:wrap;}.unified-nav-links{width:100%;}.unified-nav-brand{font-size:24px;}.unified-nav-cats{padding-top:6px;}.category-title{font-size:34px;}}
+</style>
+
+
+<style>
+/* Premium coming soon cards */
+.coming-soon-hero{
+  position:relative;
+  overflow:hidden;
+  min-height:380px;
+  border-radius:24px;
+  border:1px solid #e5e7eb;
+  box-shadow:0 14px 34px rgba(0,0,0,0.08);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:#f7f8fa;
+}
+.coming-soon-bg{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  filter:blur(2px);
+  transform:scale(1.04);
+  opacity:.48;
+}
+.coming-soon-overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg, rgba(255,255,255,.35), rgba(255,255,255,.82));
+}
+.coming-soon-content{
+  position:relative;
+  z-index:2;
+  max-width:700px;
+  padding:28px 24px;
+}
+.coming-soon-kicker{
+  display:inline-flex;
+  padding:7px 12px;
+  border-radius:999px;
+  background:#eef6ef;
+  color:#245b2a;
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  margin-bottom:12px;
+}
+.coming-soon-title{
+  margin:0 0 10px;
+  font-size:38px;
+  line-height:1.05;
+  font-weight:800;
+  color:#111827;
+}
+.coming-soon-copy{
+  margin:0 auto 18px;
+  max-width:620px;
+  color:#4b5563;
+  font-size:16px;
+  line-height:1.6;
+}
+.coming-soon-actions{
+  display:flex;
+  gap:12px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.coming-soon-email{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  flex-wrap:wrap;
+  margin-top:14px;
+}
+.coming-soon-email input{
+  min-width:260px;
+  max-width:360px;
+  height:46px;
+  border:1px solid #d1d5db;
+  border-radius:999px;
+  padding:0 16px;
+  font-size:15px;
+  background:#fff;
+}
+.coming-soon-note{
+  margin-top:10px;
+  color:#6b7280;
+  font-size:13px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="unified-nav-wrap">
+  <div class="unified-nav-main">
+    <div class="unified-nav-left">
+      <img src="images/images/logo_supersmall.jpg" alt="DAS Farms" class="unified-nav-logo">
+      <a href="index.html" class="unified-nav-brand">DAS FARMS</a>
+    </div>
+    <div class="unified-nav-links">
+      <a href="index.html">Home</a>
+      <a href="About Us.html">About Us</a>
+      <a href="products.html">Catalog</a>
+      <a href="#" data-zone-set onclick="return (window.ZoneWidget&&ZoneWidget.open)?(ZoneWidget.open(),false):false;">Know your grow zone?</a>
+      <a href="cart.html" class="unified-cart-link">🛒 Cart (<span id="cartCount">0</span>)</a>
+    </div>
+  </div>
+  <div class="unified-nav-cats">
+    <div class="unified-dropdown"><a href="Evergreen.html" class="unified-dropbtn">Evergreen</a><div class="unified-dropdown-content"><a href="AB.html">Abelia</a><a href="TH.html">Arborvitae</a><a href="BX.html">Boxwood</a><a href="IL.html">Holly</a><a href="VI.html">Viburnum</a><a href="Evergreen.html">Browse all evergreens</a></div></div>
+    <div class="unified-dropdown"><a href="Flowering.html" class="unified-dropbtn">Flowering Shrubs</a><div class="unified-dropdown-content"><a href="BU.html">Butterfly Bush</a><a href="CL.html">Clethra</a><a href="FG.html">Fothergilla</a><a href="GA.html">Gardenia</a><a href="HY.html">Hydrangea</a><a href="SP.html">Spirea</a><a href="SY.html">Lilac</a><a href="Flowering.html">Browse all flowering shrubs</a></div></div>
+    <div class="unified-dropdown"><a href="Trees.html" class="unified-dropbtn">Trees</a><div class="unified-dropdown-content"><a href="AC.html">Maples</a><a href="LA.html">Crape Myrtle</a><a href="MA.html">Magnolia</a><a href="CEcaRB.html">Red Bud</a><a href="Trees.html">Browse all trees</a></div></div>
+    <div class="unified-dropdown"><a href="Fruit.html" class="unified-dropbtn">Fruit and Nut Trees</a><div class="unified-dropdown-content"><a href="MLdo.html">Apples</a><a href="PRpe.html">Peaches</a><a href="PRsa.html">Plums</a><a href="PYco.html">Pears</a><a href="Fruit.html">Browse all fruit and nut trees</a></div></div>
+    <div class="unified-dropdown"><a href="HI.html" class="unified-dropbtn">Grasses</a><div class="unified-dropdown-content"><a href="HI.html">Browse grasses</a></div></div>
+    <div class="unified-dropdown"><a href="DIxx.html" class="unified-dropbtn">Perennials</a><div class="unified-dropdown-content"><a href="DIxx.html">Browse perennials</a></div></div>
+  </div>
+</div>
+
+<div class="category-page">
+  <div class="category-hero">
+    <h1 class="category-title">Perennials</h1>
+    <p class="category-subtitle">We’re refreshing this section so it reflects true perennial inventory.</p>
+  </div>
+  <div class="coming-soon-hero">
+  <img class="coming-soon-bg" src="images/products/annabelle-hydrangea/main.jpg" alt="Perennials — Coming Soon">
+  <div class="coming-soon-overlay"></div>
+  <div class="coming-soon-content">
+    <div class="coming-soon-kicker">Coming Soon</div>
+    <h3 class="coming-soon-title">Perennials — Coming Soon</h3>
+    <p class="coming-soon-copy">We’re refreshing this section so it reflects true perennial inventory. New additions will appear here soon.</p>
+    <div class="coming-soon-actions">
+      <a href="products.html" class="unified-cart-link">Browse Catalog</a>
+    </div>
+    <form class="coming-soon-email" action="http://www.dasfarms.com/lists/?p=subscribe" method="post" name="subscribeform">
+      <input type="email" name="email" placeholder="Enter your email for updates" aria-label="Email address">
+      <input type="submit" name="subscribe" value="Notify Me" class="unified-cart-link" style="border:none;cursor:pointer;">
+    </form>
+    <div class="coming-soon-note">Sign up to hear when this collection becomes available.</div>
+  </div>
+<div class="clean-footer">Copyright © DASFARMS.com</div>
+</div>
+
+<script src="data/zip_to_zone_2023.js"></script>
+<script src="assets/js/zone.js"></script>
+<script>
+(function(){
+  function getCookie(name){
+    try{
+      var safe = String(name).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      var m = document.cookie.match(new RegExp('(?:^|; )' + safe + '=([^;]*)'));
+      return m ? decodeURIComponent(m[1]) : "";
+    }catch(e){ return ""; }
+  }
+  try{
+    var raw = localStorage.getItem('cart') || sessionStorage.getItem('cart') || getCookie('cart') || '[]';
+    var cart = JSON.parse(raw);
+    var count = cart.reduce(function(a,i){ return a + (Number(i.qty)||0); }, 0);
+    var el = document.getElementById('cartCount');
+    if(el) el.textContent = String(count);
+  }catch(e){}
+})();
+</script>
+
+</body>
+</html>

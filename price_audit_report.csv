@@ -1,0 +1,361 @@
+product_id,product_name,size,price,status,legacy_source_file
+lainac,Acoma Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinAC.html
+lainac,Acoma Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinAC.html
+lainac,Acoma Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinAC.html
+hyqual,Alice Hydrangea,Trade Gallon,44.95,verified_from_legacy_paypal,HYquAL.html
+hyqual,Alice Hydrangea,Gallon,49.95,estimated_fallback_no_legacy_match,HYquAL.html
+hyqual,Alice Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYquAL.html
+bxseam,American Boxwood,Trade Gallon,44.95,verified_from_legacy_paypal,BXseAM.html
+bxseam,American Boxwood,Gallon,49.95,estimated_fallback_no_legacy_match,BXseAM.html
+bxseam,American Boxwood,3 Gallon,49.95,verified_from_legacy_paypal,BXseAM.html
+diviam,American Persimmon,Trade Gallon,44.95,estimated_fallback_no_legacy_match,DIviAM.html
+diviam,American Persimmon,Gallon,43.95,verified_from_legacy_paypal,DIviAM.html
+diviam,American Persimmon,3 Gallon,99.95,estimated_fallback_no_legacy_match,DIviAM.html
+malian,ANN Magnolia,Trade Gallon,44.95,verified_from_legacy_paypal,MAliAN.html
+malian,ANN Magnolia,Gallon,49.95,estimated_fallback_no_legacy_match,MAliAN.html
+malian,ANN Magnolia,3 Gallon,99.95,estimated_fallback_no_legacy_match,MAliAN.html
+hyabab,Annabelle Hydrangea,Trade Gallon,44.95,verified_from_legacy_paypal,HYabAB.html
+hyabab,Annabelle Hydrangea,Gallon,49.95,estimated_fallback_no_legacy_match,HYabAB.html
+hyabab,Annabelle Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYabAB.html
+hyabab-h-to-g,Annabelle Hydrangea,Trade Gallon,44.95,estimated_fallback_no_legacy_match,
+hyabab-h-to-g,Annabelle Hydrangea,Gallon,49.95,estimated_fallback_no_legacy_match,
+hyabab-h-to-g,Annabelle Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,
+prnuxx,Armking nectarine,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRnuXX.html
+prnuxx,Armking nectarine,Gallon,49.95,verified_from_legacy_paypal,PRnuXX.html
+prnuxx,Armking nectarine,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRnuXX.html
+prpenuak,Armking nectarine,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRpenuAK.html
+prpenuak,Armking nectarine,Gallon,49.95,verified_from_legacy_paypal,PRpenuAK.html
+prpenuak,Armking nectarine,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRpenuAK.html
+assian-beauty-berry,Asian Beauty Berry,Trade Gallon,19.95,verified_from_legacy_paypal,Assian Beauty Berry.html
+assian-beauty-berry,Asian Beauty Berry,Gallon,49.95,estimated_fallback_no_legacy_match,Assian Beauty Berry.html
+assian-beauty-berry,Asian Beauty Berry,3 Gallon,99.95,estimated_fallback_no_legacy_match,Assian Beauty Berry.html
+pycoba,Bartlett pear,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PYcoBA.html
+pycoba,Bartlett pear,Gallon,49.95,verified_from_legacy_paypal,PYcoBA.html
+pycoba,Bartlett pear,3 Gallon,99.95,estimated_fallback_no_legacy_match,PYcoBA.html
+prpebg,Belle of Georgia Peach,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRpeBG.html
+prpebg,Belle of Georgia Peach,Gallon,43.95,verified_from_legacy_paypal,PRpeBG.html
+prpebg,Belle of Georgia Peach,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRpeBG.html
+budabk,Black Knight Butterfly Bush,Trade Gallon,44.95,verified_from_legacy_paypal,BUdaBK.html
+budabk,Black Knight Butterfly Bush,Gallon,49.95,estimated_fallback_no_legacy_match,BUdaBK.html
+budabk,Black Knight Butterfly Bush,3 Gallon,99.95,estimated_fallback_no_legacy_match,BUdaBK.html
+caxbm,Blue Mist,Trade Gallon,19.95,verified_from_legacy_paypal,CAxBM.html
+caxbm,Blue Mist,Gallon,49.95,estimated_fallback_no_legacy_match,CAxBM.html
+caxbm,Blue Mist,3 Gallon,99.95,estimated_fallback_no_legacy_match,CAxBM.html
+abgrcc,Canyon Creek,Trade Gallon,44.95,verified_from_legacy_paypal,ABgrCC.html
+abgrcc,Canyon Creek,Gallon,49.95,estimated_fallback_no_legacy_match,ABgrCC.html
+abgrcc,Canyon Creek,3 Gallon,99.95,estimated_fallback_no_legacy_match,ABgrCC.html
+losemw,Cardinal Red Honeysuckle,Trade Gallon,49.95,verified_from_legacy_paypal,LOseMW.html
+losemw,Cardinal Red Honeysuckle,Gallon,49.95,estimated_fallback_no_legacy_match,LOseMW.html
+losemw,Cardinal Red Honeysuckle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LOseMW.html
+lainca,Catawba Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinCA.html
+lainca,Catawba Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinCA.html
+lainca,Catawba Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinCA.html
+laincs,Centenial Spirit,Trade Gallon,19.95,verified_from_legacy_paypal,LAinCS.html
+laincs,Centenial Spirit,Gallon,49.95,estimated_fallback_no_legacy_match,LAinCS.html
+laincs,Centenial Spirit,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinCS.html
+laincd,Cherry Dazzle Crapemyrtle,Trade Gallon,44.95,estimated_fallback_no_legacy_match,LAinCD.html
+laincd,Cherry Dazzle Crapemyrtle,Gallon,49.95,verified_from_legacy_paypal,LAinCD.html
+laincd,Cherry Dazzle Crapemyrtle,3 Gallon,59.95,verified_from_legacy_paypal,LAinCD.html
+vimacs,Chinese snowball Viburnum,Trade Gallon,44.95,estimated_fallback_no_legacy_match,VImaCS.html
+vimacs,Chinese snowball Viburnum,Gallon,49.95,verified_from_legacy_paypal,VImaCS.html
+vimacs,Chinese snowball Viburnum,3 Gallon,99.95,estimated_fallback_no_legacy_match,VImaCS.html
+prpeco,Contender Peach,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRpeCO.html
+prpeco,Contender Peach,Gallon,43.95,verified_from_legacy_paypal,PRpeCO.html
+prpeco,Contender Peach,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRpeCO.html
+spjacr,Crispa,Trade Gallon,44.95,verified_from_legacy_paypal,SPjaCR.html
+spjacr,Crispa,Gallon,49.95,estimated_fallback_no_legacy_match,SPjaCR.html
+spjacr,Crispa,3 Gallon,99.95,estimated_fallback_no_legacy_match,SPjaCR.html
+gajada,Daisy Gardenia,Trade Gallon,44.95,verified_from_legacy_paypal,GAjaDA.html
+gajada,Daisy Gardenia,Gallon,49.95,estimated_fallback_no_legacy_match,GAjaDA.html
+gajada,Daisy Gardenia,3 Gallon,99.95,estimated_fallback_no_legacy_match,GAjaDA.html
+bxsedr,Dee Runk Boxwood,Trade Gallon,44.95,verified_from_legacy_paypal,BXseDR.html
+bxsedr,Dee Runk Boxwood,Gallon,49.95,estimated_fallback_no_legacy_match,BXseDR.html
+bxsedr,Dee Runk Boxwood,3 Gallon,49.95,verified_from_legacy_paypal,BXseDR.html
+laindf,Double Feature Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinDF.html
+laindf,Double Feature Crapemyrtle,Gallon,49.95,verified_from_legacy_paypal,LAinDF.html
+laindf,Double Feature Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinDF.html
+fgga,Dwarf Fothergilla,Trade Gallon,44.95,verified_from_legacy_paypal,FGga.html
+fgga,Dwarf Fothergilla,Gallon,49.95,estimated_fallback_no_legacy_match,FGga.html
+fgga,Dwarf Fothergilla,3 Gallon,99.95,estimated_fallback_no_legacy_match,FGga.html
+laindy,Dynamite Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinDY.html
+laindy,Dynamite Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinDY.html
+laindy,Dynamite Crapemyrtle,3 Gallon,49.95,verified_from_legacy_paypal,LAinDY.html
+cecarb,Eastern Redbud,Trade Gallon,44.95,estimated_fallback_no_legacy_match,CEcaRB.html
+cecarb,Eastern Redbud,Gallon,49.95,verified_from_legacy_paypal,CEcaRB.html
+cecarb,Eastern Redbud,3 Gallon,99.95,estimated_fallback_no_legacy_match,CEcaRB.html
+abgreg,Edward Goucher,Trade Gallon,44.95,verified_from_legacy_paypal,ABgrEG.html
+abgreg,Edward Goucher,Gallon,49.95,estimated_fallback_no_legacy_match,ABgrEG.html
+abgreg,Edward Goucher,3 Gallon,99.95,estimated_fallback_no_legacy_match,ABgrEG.html
+prpeeb,Elberta Peach,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRpeEB.html
+prpeeb,Elberta Peach,Gallon,43.95,verified_from_legacy_paypal,PRpeEB.html
+prpeeb,Elberta Peach,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRpeEB.html
+thocem,EMERALD ARBORVITAE,Trade Gallon,44.95,verified_from_legacy_paypal,THocEM.html
+thocem,EMERALD ARBORVITAE,Gallon,49.95,estimated_fallback_no_legacy_match,THocEM.html
+thocem,EMERALD ARBORVITAE,3 Gallon,99.95,estimated_fallback_no_legacy_match,THocEM.html
+bxsesu,English Edging Boxwood,Trade Gallon,44.95,verified_from_legacy_paypal,BXseSU.html
+bxsesu,English Edging Boxwood,Gallon,49.95,estimated_fallback_no_legacy_match,BXseSU.html
+bxsesu,English Edging Boxwood,3 Gallon,49.95,verified_from_legacy_paypal,BXseSU.html
+bxsefa,Fastigiata Boxwood,Trade Gallon,44.95,verified_from_legacy_paypal,BXseFA.html
+bxsefa,Fastigiata Boxwood,Gallon,49.95,estimated_fallback_no_legacy_match,BXseFA.html
+bxsefa,Fastigiata Boxwood,3 Gallon,49.95,verified_from_legacy_paypal,BXseFA.html
+prpefg,Florida Glo Peach,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRpeFG.html
+prpefg,Florida Glo Peach,Gallon,43.95,verified_from_legacy_paypal,PRpeFG.html
+prpefg,Florida Glo Peach,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRpeFG.html
+fgmama,Fothergilla Mt. Airy,Trade Gallon,44.95,verified_from_legacy_paypal,FGmaMA.html
+fgmama,Fothergilla Mt. Airy,Gallon,49.95,estimated_fallback_no_legacy_match,FGmaMA.html
+fgmama,Fothergilla Mt. Airy,3 Gallon,99.95,estimated_fallback_no_legacy_match,FGmaMA.html
+gajafp,Frost Proof Gardenia,Trade Gallon,14.95,verified_from_legacy_paypal,GAjaFP.html
+gajafp,Frost Proof Gardenia,Gallon,49.95,estimated_fallback_no_legacy_match,GAjaFP.html
+gajafp,Frost Proof Gardenia,3 Gallon,99.95,estimated_fallback_no_legacy_match,GAjaFP.html
+ml-fuji,Fuji Apple,Trade Gallon,44.95,estimated_fallback_no_legacy_match,ML_fuji.html
+ml-fuji,Fuji Apple,Gallon,43.95,verified_from_legacy_paypal,ML_fuji.html
+ml-fuji,Fuji Apple,3 Gallon,99.95,estimated_fallback_no_legacy_match,ML_fuji.html
+dikafu,Fuyu Persimmon,Trade Gallon,44.95,estimated_fallback_no_legacy_match,DIkaFU.html
+dikafu,Fuyu Persimmon,Gallon,43.95,verified_from_legacy_paypal,DIkaFU.html
+dikafu,Fuyu Persimmon,3 Gallon,99.95,estimated_fallback_no_legacy_match,DIkaFU.html
+ml-gala,Gala Apple,Trade Gallon,44.95,estimated_fallback_no_legacy_match,ML_gala.html
+ml-gala,Gala Apple,Gallon,43.95,verified_from_legacy_paypal,ML_gala.html
+ml-gala,Gala Apple,3 Gallon,99.95,estimated_fallback_no_legacy_match,ML_gala.html
+maxga,GALAXY Magnolia,Trade Gallon,44.95,verified_from_legacy_paypal,MAxGA.html
+maxga,GALAXY Magnolia,Gallon,49.95,estimated_fallback_no_legacy_match,MAxGA.html
+maxga,GALAXY Magnolia,3 Gallon,99.95,estimated_fallback_no_legacy_match,MAxGA.html
+lefogr,Garad's Rainbow,Trade Gallon,44.95,verified_from_legacy_paypal,LEfoGR.html
+lefogr,Garad's Rainbow,Gallon,49.95,verified_from_legacy_paypal,LEfoGR.html
+lefogr,Garad's Rainbow,3 Gallon,99.95,estimated_fallback_no_legacy_match,LEfoGR.html
+spbugf,Gold Flame,Trade Gallon,44.95,verified_from_legacy_paypal,SPbuGF.html
+spbugf,Gold Flame,Gallon,49.95,estimated_fallback_no_legacy_match,SPbuGF.html
+spbugf,Gold Flame,3 Gallon,99.95,estimated_fallback_no_legacy_match,SPbuGF.html
+spjagm,Gold Mound,Trade Gallon,44.95,verified_from_legacy_paypal,SPjaGM.html
+spjagm,Gold Mound,Gallon,49.95,estimated_fallback_no_legacy_match,SPjaGM.html
+spjagm,Gold Mound,3 Gallon,99.95,estimated_fallback_no_legacy_match,SPjaGM.html
+ml-gold-d,Golden Delicious,Trade Gallon,44.95,estimated_fallback_no_legacy_match,ML_gold_d.html
+ml-gold-d,Golden Delicious,Gallon,43.95,verified_from_legacy_paypal,ML_gold_d.html
+ml-gold-d,Golden Delicious,3 Gallon,99.95,estimated_fallback_no_legacy_match,ML_gold_d.html
+kejagg,Golden Guinea Kerria,Trade Gallon,44.95,verified_from_legacy_paypal,KEjaGG.html
+kejagg,Golden Guinea Kerria,Gallon,49.95,estimated_fallback_no_legacy_match,KEjaGG.html
+kejagg,Golden Guinea Kerria,3 Gallon,99.95,estimated_fallback_no_legacy_match,KEjaGG.html
+ml-gs,Granny Smith,Trade Gallon,44.95,estimated_fallback_no_legacy_match,ML_GS.html
+ml-gs,Granny Smith,Gallon,43.95,verified_from_legacy_paypal,ML_GS.html
+ml-gs,Granny Smith,3 Gallon,99.95,estimated_fallback_no_legacy_match,ML_GS.html
+bxmigb,Green Beauty,Trade Gallon,44.95,verified_from_legacy_paypal,BXmiGB.html
+bxmigb,Green Beauty,Gallon,49.95,estimated_fallback_no_legacy_match,BXmiGB.html
+bxmigb,Green Beauty,3 Gallon,99.95,estimated_fallback_no_legacy_match,BXmiGB.html
+bxxgg,Green Gem,Trade Gallon,44.95,verified_from_legacy_paypal,BXxGG.html
+bxxgg,Green Gem,Gallon,49.95,estimated_fallback_no_legacy_match,BXxGG.html
+bxxgg,Green Gem,3 Gallon,49.95,verified_from_legacy_paypal,BXxGG.html
+thxgg,GREEN GIANT ARBORVITAE,Trade Gallon,44.95,verified_from_legacy_paypal,THxGG.html
+thxgg,GREEN GIANT ARBORVITAE,Gallon,49.95,estimated_fallback_no_legacy_match,THxGG.html
+thxgg,GREEN GIANT ARBORVITAE,3 Gallon,99.95,estimated_fallback_no_legacy_match,THxGG.html
+bxxgm,Green Mountain,Trade Gallon,44.95,verified_from_legacy_paypal,BXxGM.html
+bxxgm,Green Mountain,Gallon,49.95,estimated_fallback_no_legacy_match,BXxGM.html
+bxxgm,Green Mountain,3 Gallon,49.95,verified_from_legacy_paypal,BXxGM.html
+bxxgv,Green Velvet,Trade Gallon,44.95,verified_from_legacy_paypal,BXxGV.html
+bxxgv,Green Velvet,Gallon,49.95,estimated_fallback_no_legacy_match,BXxGV.html
+bxxgv,Green Velvet,3 Gallon,49.95,verified_from_legacy_paypal,BXxGV.html
+cailhp,Harty Pecan,Trade Gallon,49.95,verified_from_legacy_paypal,CAilHP.html
+cailhp,Harty Pecan,Gallon,49.95,estimated_fallback_no_legacy_match,CAilHP.html
+cailhp,Harty Pecan,3 Gallon,99.95,estimated_fallback_no_legacy_match,CAilHP.html
+itvihg,Henry's Garnet Itea,Trade Gallon,44.95,verified_from_legacy_paypal,ITviHG.html
+itvihg,Henry's Garnet Itea,Gallon,49.95,estimated_fallback_no_legacy_match,ITviHG.html
+itvihg,Henry's Garnet Itea,3 Gallon,99.95,estimated_fallback_no_legacy_match,ITviHG.html
+lainho,Hopi Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinHO.html
+lainho,Hopi Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinHO.html
+lainho,Hopi Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinHO.html
+clalhb,Humming Bird Clethra,Trade Gallon,44.95,verified_from_legacy_paypal,CLalHB.html
+clalhb,Humming Bird Clethra,Gallon,49.95,estimated_fallback_no_legacy_match,CLalHB.html
+clalhb,Humming Bird Clethra,3 Gallon,99.95,estimated_fallback_no_legacy_match,CLalHB.html
+bxsein,Inglis Boxwood,Trade Gallon,44.95,verified_from_legacy_paypal,BXseIN.html
+bxsein,Inglis Boxwood,Gallon,49.95,estimated_fallback_no_legacy_match,BXseIN.html
+bxsein,Inglis Boxwood,3 Gallon,99.95,estimated_fallback_no_legacy_match,BXseIN.html
+malija,JANE Magnolia,Trade Gallon,44.95,verified_from_legacy_paypal,MAliJA.html
+malija,JANE Magnolia,Gallon,49.95,estimated_fallback_no_legacy_match,MAliJA.html
+malija,JANE Magnolia,3 Gallon,99.95,estimated_fallback_no_legacy_match,MAliJA.html
+acpaat,Japanese Red Maple,Trade Gallon,49.95,verified_from_legacy_paypal,ACpaAT.html
+acpaat,Japanese Red Maple,Gallon,49.95,verified_from_legacy_paypal,ACpaAT.html
+acpaat,Japanese Red Maple,3 Gallon,99.95,estimated_fallback_no_legacy_match,ACpaAT.html
+vixju,Juddii Viburnum,Trade Gallon,44.95,verified_from_legacy_paypal,VIxJU.html
+vixju,Juddii Viburnum,Gallon,49.95,estimated_fallback_no_legacy_match,VIxJU.html
+vixju,Juddii Viburnum,3 Gallon,99.95,estimated_fallback_no_legacy_match,VIxJU.html
+bxsijb,Justin Brouwers,Trade Gallon,44.95,verified_from_legacy_paypal,BXsiJB.html
+bxsijb,Justin Brouwers,Gallon,49.95,estimated_fallback_no_legacy_match,BXsiJB.html
+bxsijb,Justin Brouwers,3 Gallon,99.95,estimated_fallback_no_legacy_match,BXsiJB.html
+pycoke,Kiefer pear,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PYcoKE.html
+pycoke,Kiefer pear,Gallon,43.95,verified_from_legacy_paypal,PYcoKE.html
+pycoke,Kiefer pear,3 Gallon,99.95,estimated_fallback_no_legacy_match,PYcoKE.html
+bxsiko,Korean,Trade Gallon,44.95,verified_from_legacy_paypal,BXsiKO.html
+bxsiko,Korean,Gallon,49.95,estimated_fallback_no_legacy_match,BXsiKO.html
+bxsiko,Korean,3 Gallon,49.95,verified_from_legacy_paypal,BXsiKO.html
+hypall,Limelight Hydrangea,Trade Gallon,44.95,verified_from_legacy_paypal,HYpaLL.html
+hypall,Limelight Hydrangea,Gallon,49.95,estimated_fallback_no_legacy_match,HYpaLL.html
+hypall,Limelight Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYpaLL.html
+spjalp,Little Princes,Trade Gallon,44.95,verified_from_legacy_paypal,SPjaLP.html
+spjalp,Little Princes,Gallon,49.95,estimated_fallback_no_legacy_match,SPjaLP.html
+spjalp,Little Princes,3 Gallon,99.95,estimated_fallback_no_legacy_match,SPjaLP.html
+fsxlg,Lynwood Gold Forsythia,Trade Gallon,44.95,verified_from_legacy_paypal,FSxLG.html
+fsxlg,Lynwood Gold Forsythia,Gallon,49.95,verified_from_legacy_paypal,FSxLG.html
+fsxlg,Lynwood Gold Forsythia,3 Gallon,99.95,estimated_fallback_no_legacy_match,FSxLG.html
+malome,MERRILL Magnolia,Trade Gallon,44.95,verified_from_legacy_paypal,MAloME.html
+malome,MERRILL Magnolia,Gallon,49.95,estimated_fallback_no_legacy_match,MAloME.html
+malome,MERRILL Magnolia,3 Gallon,99.95,estimated_fallback_no_legacy_match,MAloME.html
+sypumk,Miss Kim Lilac,Trade Gallon,44.95,verified_from_legacy_paypal,SYpuMK.html
+sypumk,Miss Kim Lilac,Gallon,49.95,estimated_fallback_no_legacy_match,SYpuMK.html
+sypumk,Miss Kim Lilac,3 Gallon,99.95,estimated_fallback_no_legacy_match,SYpuMK.html
+at-level-3,Mohawk Viburnum,Trade Gallon,19.95,verified_from_legacy_paypal,AT-level-3.html
+at-level-3,Mohawk Viburnum,Gallon,49.95,estimated_fallback_no_legacy_match,AT-level-3.html
+at-level-3,Mohawk Viburnum,3 Gallon,99.95,estimated_fallback_no_legacy_match,AT-level-3.html
+vibumo,Mohawk Viburnum,Trade Gallon,44.95,verified_from_legacy_paypal,VIbuMO.html
+vibumo,Mohawk Viburnum,Gallon,49.95,estimated_fallback_no_legacy_match,VIbuMO.html
+vibumo,Mohawk Viburnum,3 Gallon,99.95,estimated_fallback_no_legacy_match,VIbuMO.html
+pycomg,Moon Glo Pear,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PYcoMG.html
+pycomg,Moon Glo Pear,Gallon,43.95,verified_from_legacy_paypal,PYcoMG.html
+pycomg,Moon Glo Pear,3 Gallon,99.95,estimated_fallback_no_legacy_match,PYcoMG.html
+prarmp,Mooorpark Apricot,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRarMP.html
+prarmp,Mooorpark Apricot,Gallon,49.95,verified_from_legacy_paypal,PRarMP.html
+prarmp,Mooorpark Apricot,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRarMP.html
+nadofp,Nadina Fire Power,Trade Gallon,44.95,verified_from_legacy_paypal,NAdoFP.html
+nadofp,Nadina Fire Power,Gallon,49.95,estimated_fallback_no_legacy_match,NAdoFP.html
+nadofp,Nadina Fire Power,3 Gallon,99.95,estimated_fallback_no_legacy_match,NAdoFP.html
+budaeb,Nano Blue Butterfly Bush,Trade Gallon,44.95,verified_from_legacy_paypal,BUdaEB.html
+budaeb,Nano Blue Butterfly Bush,Gallon,49.95,estimated_fallback_no_legacy_match,BUdaEB.html
+budaeb,Nano Blue Butterfly Bush,3 Gallon,99.95,estimated_fallback_no_legacy_match,BUdaEB.html
+lainna,Natchez Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinNA.html
+lainna,Natchez Crapemyrtle,Gallon,49.95,verified_from_legacy_paypal,LAinNA.html
+lainna,Natchez Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinNA.html
+ilxns,NELLY R STEVENS,Trade Gallon,44.95,verified_from_legacy_paypal,ILxNS.html
+ilxns,NELLY R STEVENS,Gallon,49.95,estimated_fallback_no_legacy_match,ILxNS.html
+ilxns,NELLY R STEVENS,3 Gallon,99.95,estimated_fallback_no_legacy_match,ILxNS.html
+spjanf,Neon Flash,Trade Gallon,44.95,verified_from_legacy_paypal,SPjaNF.html
+spjanf,Neon Flash,Gallon,49.95,estimated_fallback_no_legacy_match,SPjaNF.html
+spjanf,Neon Flash,3 Gallon,99.95,estimated_fallback_no_legacy_match,SPjaNF.html
+viplnp,Newport Viburnum,Trade Gallon,44.95,verified_from_legacy_paypal,VIplNP.html
+viplnp,Newport Viburnum,Gallon,49.95,estimated_fallback_no_legacy_match,VIplNP.html
+viplnp,Newport Viburnum,3 Gallon,99.95,estimated_fallback_no_legacy_match,VIplNP.html
+hymanb,Nikko Blue,Trade Gallon,44.95,verified_from_legacy_paypal,HYmaNB.html
+hymanb,Nikko Blue,Gallon,49.95,verified_from_legacy_paypal,HYmaNB.html
+hymanb,Nikko Blue,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYmaNB.html
+bxxnc,Northern Charm,Trade Gallon,44.95,verified_from_legacy_paypal,BXxNC.html
+bxxnc,Northern Charm,Gallon,49.95,estimated_fallback_no_legacy_match,BXxNC.html
+bxxnc,Northern Charm,3 Gallon,99.95,estimated_fallback_no_legacy_match,BXxNC.html
+weflvw,Old Fasion Weigela,Trade Gallon,19.95,verified_from_legacy_paypal,WEflVW.html
+weflvw,Old Fasion Weigela,Gallon,49.95,verified_from_legacy_paypal,WEflVW.html
+weflvw,Old Fasion Weigela,3 Gallon,99.95,estimated_fallback_no_legacy_match,WEflVW.html
+syxog,Old Glory Lilac,Trade Gallon,19.95,verified_from_legacy_paypal,SYxOG.html
+syxog,Old Glory Lilac,Gallon,49.95,estimated_fallback_no_legacy_match,SYxOG.html
+syxog,Old Glory Lilac,3 Gallon,99.95,estimated_fallback_no_legacy_match,SYxOG.html
+symepa,Palibin Lilac,Trade Gallon,44.95,verified_from_legacy_paypal,SYmePA.html
+symepa,Palibin Lilac,Gallon,49.95,estimated_fallback_no_legacy_match,SYmePA.html
+symepa,Palibin Lilac,3 Gallon,99.95,estimated_fallback_no_legacy_match,SYmePA.html
+hypapg,Pee Gee  Hydrangea,Trade Gallon,44.95,verified_from_legacy_paypal,HYpaPG.html
+hypapg,Pee Gee  Hydrangea,Gallon,49.95,verified_from_legacy_paypal,HYpaPG.html
+hypapg,Pee Gee  Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYpaPG.html
+hymapm,Penny Mac Hydrangea,Trade Gallon,44.95,verified_from_legacy_paypal,HYmaPM.html
+hymapm,Penny Mac Hydrangea,Gallon,49.95,verified_from_legacy_paypal,HYmaPM.html
+hymapm,Penny Mac Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYmaPM.html
+pycopi,Pinapple pear,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PYcoPI.html
+pycopi,Pinapple pear,Gallon,49.95,verified_from_legacy_paypal,PYcoPI.html
+pycopi,Pinapple pear,3 Gallon,99.95,estimated_fallback_no_legacy_match,PYcoPI.html
+hypapd,Pink Diamond Hydrangea,Trade Gallon,44.95,verified_from_legacy_paypal,HYpaPD.html
+hypapd,Pink Diamond Hydrangea,Gallon,49.95,estimated_fallback_no_legacy_match,HYpaPD.html
+hypapd,Pink Diamond Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYpaPD.html
+mldopl,Pink Lady,Trade Gallon,44.95,estimated_fallback_no_legacy_match,MLdoPL.html
+mldopl,Pink Lady,Gallon,43.95,verified_from_legacy_paypal,MLdoPL.html
+mldopl,Pink Lady,3 Gallon,99.95,estimated_fallback_no_legacy_match,MLdoPL.html
+lainpk,Pocomoke Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinPK.html
+lainpk,Pocomoke Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinPK.html
+lainpk,Pocomoke Crapemyrtle,3 Gallon,84.95,verified_from_legacy_paypal,LAinPK.html
+vixpr,Pragense Viburnum,Trade Gallon,44.95,verified_from_legacy_paypal,VIxPR.html
+vixpr,Pragense Viburnum,Gallon,49.95,verified_from_legacy_paypal,VIxPR.html
+vixpr,Pragense Viburnum,3 Gallon,99.95,estimated_fallback_no_legacy_match,VIxPR.html
+thocpy,PYRAMIDALIS ARBORVITAE,Trade Gallon,44.95,verified_from_legacy_paypal,THocPY.html
+thocpy,PYRAMIDALIS ARBORVITAE,Gallon,49.95,estimated_fallback_no_legacy_match,THocPY.html
+thocpy,PYRAMIDALIS ARBORVITAE,3 Gallon,99.95,estimated_fallback_no_legacy_match,THocPY.html
+lainrp,Raposidy in Pink Crapemyrtle,Trade Gallon,44.95,estimated_fallback_no_legacy_match,LAinRP.html
+lainrp,Raposidy in Pink Crapemyrtle,Gallon,49.95,verified_from_legacy_paypal,LAinRP.html
+lainrp,Raposidy in Pink Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinRP.html
+prperh,Red Haven Peach,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRpeRH.html
+prperh,Red Haven Peach,Gallon,43.95,verified_from_legacy_paypal,PRpeRH.html
+prperh,Red Haven Peach,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRpeRH.html
+prsarj,Red June Plum,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRsaRJ.html
+prsarj,Red June Plum,Gallon,43.95,verified_from_legacy_paypal,PRsaRJ.html
+prsarj,Red June Plum,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRsaRJ.html
+acruru,Red Maple,Trade Gallon,49.95,verified_from_legacy_paypal,ACruRU.html
+acruru,Red Maple,Gallon,49.95,estimated_fallback_no_legacy_match,ACruRU.html
+acruru,Red Maple,3 Gallon,99.95,estimated_fallback_no_legacy_match,ACruRU.html
+prperseb,RedSkin Elberta Peach,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRpeRSEB.html
+prperseb,RedSkin Elberta Peach,Gallon,43.95,verified_from_legacy_paypal,PRpeRSEB.html
+prperseb,RedSkin Elberta Peach,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRpeRSEB.html
+benirb,River Birch,Trade Gallon,44.95,estimated_fallback_no_legacy_match,BEniRB.html
+benirb,River Birch,Gallon,49.95,verified_from_legacy_paypal,BEniRB.html
+benirb,River Birch,3 Gallon,99.95,estimated_fallback_no_legacy_match,BEniRB.html
+mastrs,ROYAL Star,Trade Gallon,44.95,verified_from_legacy_paypal,MAstRS.html
+mastrs,ROYAL Star,Gallon,49.95,estimated_fallback_no_legacy_match,MAstRS.html
+mastrs,ROYAL Star,3 Gallon,99.95,estimated_fallback_no_legacy_match,MAstRS.html
+clalrs,Ruby Spice Clethra,Trade Gallon,44.95,verified_from_legacy_paypal,CLalRS.html
+clalrs,Ruby Spice Clethra,Gallon,49.95,estimated_fallback_no_legacy_match,CLalRS.html
+clalrs,Ruby Spice Clethra,3 Gallon,99.95,estimated_fallback_no_legacy_match,CLalRS.html
+eualrh,Rudy Haag,Trade Gallon,44.95,verified_from_legacy_paypal,EUalRH.html
+eualrh,Rudy Haag,Gallon,49.95,estimated_fallback_no_legacy_match,EUalRH.html
+eualrh,Rudy Haag,3 Gallon,99.95,estimated_fallback_no_legacy_match,EUalRH.html
+prsasr,Santa Rosa Plum,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRsaSR.html
+prsasr,Santa Rosa Plum,Gallon,43.95,verified_from_legacy_paypal,PRsaSR.html
+prsasr,Santa Rosa Plum,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRsaSR.html
+lainsf,Sarah's Favorite Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinSF.html
+lainsf,Sarah's Favorite Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinSF.html
+lainsf,Sarah's Favorite Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinSF.html
+prsasb,Scarlet Beauty Plum,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRsaSB.html
+prsasb,Scarlet Beauty Plum,Gallon,43.95,verified_from_legacy_paypal,PRsaSB.html
+prsasb,Scarlet Beauty Plum,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRsaSB.html
+ilgasr,SHAMROCK HOLLY,Trade Gallon,44.95,verified_from_legacy_paypal,ILgaSR.html
+ilgasr,SHAMROCK HOLLY,Gallon,49.95,estimated_fallback_no_legacy_match,ILgaSR.html
+ilgasr,SHAMROCK HOLLY,3 Gallon,99.95,estimated_fallback_no_legacy_match,ILgaSR.html
+viptsh,Shasta Viburnum,Trade Gallon,44.95,verified_from_legacy_paypal,VIptSH.html
+viptsh,Shasta Viburnum,Gallon,49.95,estimated_fallback_no_legacy_match,VIptSH.html
+viptsh,Shasta Viburnum,3 Gallon,99.95,estimated_fallback_no_legacy_match,VIptSH.html
+ilcrsp,SKY Pencil Holly,Trade Gallon,44.95,verified_from_legacy_paypal,ILcrSP.html
+ilcrsp,SKY Pencil Holly,Gallon,49.95,estimated_fallback_no_legacy_match,ILcrSP.html
+ilcrsp,SKY Pencil Holly,3 Gallon,99.95,estimated_fallback_no_legacy_match,ILcrSP.html
+spnism,Snow Mound,Trade Gallon,44.95,verified_from_legacy_paypal,SPniSM.html
+spnism,Snow Mound,Gallon,49.95,estimated_fallback_no_legacy_match,SPniSM.html
+spnism,Snow Mound,3 Gallon,99.95,estimated_fallback_no_legacy_match,SPniSM.html
+viopst,Snowball Viburnum,Trade Gallon,44.95,verified_from_legacy_paypal,VIopST.html
+viopst,Snowball Viburnum,Gallon,49.95,estimated_fallback_no_legacy_match,VIopST.html
+viopst,Snowball Viburnum,3 Gallon,99.95,estimated_fallback_no_legacy_match,VIopST.html
+hyqusq,Snowqueen Hydrangea,Trade Gallon,44.95,verified_from_legacy_paypal,HYquSQ.html
+hyqusq,Snowqueen Hydrangea,Gallon,49.95,estimated_fallback_no_legacy_match,HYquSQ.html
+hyqusq,Snowqueen Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYquSQ.html
+acsasm,Sugar Maple,Trade Gallon,44.95,estimated_fallback_no_legacy_match,ACsaSM.html
+acsasm,Sugar Maple,Gallon,49.95,verified_from_legacy_paypal,ACsaSM.html
+acsasm,Sugar Maple,3 Gallon,99.95,estimated_fallback_no_legacy_match,ACsaSM.html
+lainto,Tonto Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinTO.html
+lainto,Tonto Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinTO.html
+lainto,Tonto Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinTO.html
+laintu,Tuscarora Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinTU.html
+laintu,Tuscarora Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinTU.html
+laintu,Tuscarora Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinTU.html
+hypaun,Unique Hydrangea,Trade Gallon,44.95,estimated_fallback_no_legacy_match,HYpaUN.html
+hypaun,Unique Hydrangea,Gallon,49.95,verified_from_legacy_paypal,HYpaUN.html
+hypaun,Unique Hydrangea,3 Gallon,99.95,estimated_fallback_no_legacy_match,HYpaUN.html
+bxsevv,Vardar Valley,Trade Gallon,44.95,estimated_fallback_no_legacy_match,BXseVV.html
+bxsevv,Vardar Valley,Gallon,44.95,verified_from_legacy_paypal,BXseVV.html
+bxsevv,Vardar Valley,3 Gallon,99.95,estimated_fallback_no_legacy_match,BXseVV.html
+lainvi,Victor Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinVI.html
+lainvi,Victor Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinVI.html
+lainvi,Victor Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinVI.html
+mastwl,Waterlilly,Trade Gallon,44.95,verified_from_legacy_paypal,MAstWL.html
+mastwl,Waterlilly,Gallon,49.95,estimated_fallback_no_legacy_match,MAstWL.html
+mastwl,Waterlilly,3 Gallon,99.95,estimated_fallback_no_legacy_match,MAstWL.html
+lainwm,Watermelon Crapemyrtle,Trade Gallon,49.95,verified_from_legacy_paypal,LAinWM.html
+lainwm,Watermelon Crapemyrtle,Gallon,49.95,estimated_fallback_no_legacy_match,LAinWM.html
+lainwm,Watermelon Crapemyrtle,3 Gallon,99.95,estimated_fallback_no_legacy_match,LAinWM.html
+prsuwh,WEEPING HIGAN,Trade Gallon,44.95,estimated_fallback_no_legacy_match,PRsuWH.html
+prsuwh,WEEPING HIGAN,Gallon,49.95,verified_from_legacy_paypal,PRsuWH.html
+prsuwh,WEEPING HIGAN,3 Gallon,99.95,estimated_fallback_no_legacy_match,PRsuWH.html
+bxsewe,Wellerii,Trade Gallon,44.95,verified_from_legacy_paypal,BXseWE.html
+bxsewe,Wellerii,Gallon,49.95,estimated_fallback_no_legacy_match,BXseWE.html
+bxsewe,Wellerii,3 Gallon,99.95,estimated_fallback_no_legacy_match,BXseWE.html
+budawp,White Profusion Butterfly Bush,Trade Gallon,44.95,verified_from_legacy_paypal,BUdaWP.html
+budawp,White Profusion Butterfly Bush,Gallon,49.95,estimated_fallback_no_legacy_match,BUdaWP.html
+budawp,White Profusion Butterfly Bush,3 Gallon,99.95,estimated_fallback_no_legacy_match,BUdaWP.html
+bxmiwg,Winter Gem,Trade Gallon,44.95,verified_from_legacy_paypal,BXmiWG.html
+bxmiwg,Winter Gem,Gallon,49.95,estimated_fallback_no_legacy_match,BXmiWG.html
+bxmiwg,Winter Gem,3 Gallon,49.95,verified_from_legacy_paypal,BXmiWG.html

@@ -1,0 +1,2 @@
+Verified price entries from legacy PayPal pages: 141
+Estimated/fallback price entries: 219

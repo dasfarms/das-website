@@ -1,0 +1,46 @@
+/* Catalog pages */
+.catalog-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+}
+.catalog-card{
+  width:300px;
+  max-width:100%;
+  border:1px solid #ddd;
+  border-radius:8px;
+  padding:12px;
+  background:#fff;
+}
+.catalog-card img{
+  width:100%;
+  height:auto;
+  border-radius:6px;
+}
+.badge-size{
+  display:inline-block;
+  border:1px solid #bbb;
+  border-radius:999px;
+  padding:2px 8px;
+  margin:2px 4px 2px 0;
+  font-size:12px;
+}
+.badge-size.unavailable{
+  opacity:.45;
+  text-decoration:line-through;
+}
+.small-muted{ color:#666; font-size:12px; }
+
+
+/* Inventory + cart helpers */
+.inv-panel{ margin-top:10px; padding:10px; border:1px dashed #bbb; border-radius:8px; background:#fafafa; }
+.inv-row{ display:flex; gap:8px; align-items:center; margin-bottom:6px; }
+.inv-row input{ max-width:140px; }
+
+
+/* Availability badges */
+.badge-size .badge-note{ font-size:11px; margin-left:4px; opacity:.85; }
+.badge-size.soldout{ border-color:#d9534f; color:#d9534f; }
+.badge-size.low{ border-color:#f0ad4e; color:#8a6d3b; }
+.badge-size.in-stock{ border-color:#5cb85c; color:#3c763d; }
+.low-stock-text{ color:#8a6d3b; font-weight:600; }
