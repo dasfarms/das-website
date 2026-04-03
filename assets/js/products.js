@@ -2,15 +2,31 @@
   const $ = (sel, el=document) => el.querySelector(sel);
 
   function renderCurrentZoneBadge(){
-    const el = $('#currentZoneBadge');
-    if(!el) return;
+    const badge = $('#currentZoneBadge');
+    const btn = $('#zoneSetBtn');
+
+    if(!badge || !btn) return;
+
     let z = null;
     try{
       z = (window.ZoneWidget && ZoneWidget.get) ? ZoneWidget.get() : null;
     }catch(e){
       z = null;
     }
-    el.textContent = (z || z === 0) ? ('Current zone: ' + z) : 'Zone not set';
+
+    const hasZone = (z || z === 0);
+
+    if(hasZone){
+      badge.style.display = "inline-block";
+      badge.textContent = "Zone " + z;
+      btn.textContent = "Change Zone";
+      btn.classList.remove("zone-warning-button");
+    } else {
+      badge.style.display = "none";
+      badge.textContent = "";
+      btn.textContent = "Set Zone";
+      btn.classList.add("zone-warning-button");
+    }
   }
 
 
@@ -446,10 +462,8 @@ const LOW_STOCK = 3;
           ? 'Set your grow zone to enable this filter.'
           : ('Your stored grow zone is Zone ' + f.userZoneNum + '.');
       }
-      const zb = $('#zoneSetBtn');
-      if(zb){
-        zb.textContent = (f.userZoneNum == null) ? 'SET ZONE' : 'CHANGE ZONE';
-        if(typeof renderCurrentZoneBadge==='function') renderCurrentZoneBadge();
+      if(typeof renderCurrentZoneBadge === 'function'){
+        renderCurrentZoneBadge();
       }
     }
 

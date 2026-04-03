@@ -44,3 +44,13 @@
 .badge-size.low{ border-color:#f0ad4e; color:#8a6d3b; }
 .badge-size.in-stock{ border-color:#5cb85c; color:#3c763d; }
 .low-stock-text{ color:#8a6d3b; font-weight:600; }
+
+
+.zone-warning-button{
+  background:#ffe7e7;
+  color:#c62828;
+  border:1px solid #f0b1b1;
+  padding:6px 10px;
+  border-radius:6px;
+  font-weight:700;
+}
